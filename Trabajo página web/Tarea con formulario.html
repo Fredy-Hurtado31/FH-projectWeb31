@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Mi primera página web</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+<h1>DESCRIPCION</h1>
+<p>Mi nombre es Fredy Hurtado Angulo y tengo 19 años. Soy un alumno de la Universidad Nacional del Callao (UNAC) y vivo en Comas. Estudio en la Escuela Profesional de Ingeniería de Sistemas, ubicada en la FIIS.</p>
+<img src=Foto.jpg>
+<h1>ESTUDIOS</h1>
+<p>Primaria y 1° año de Secundaria en Pamer <br> 2° año de Secundaria en Saco Oliveros <br> 3° a 5° año de Secundaria en Trilce <br> </p>
+<h1>FORMULARIO </h1>
+<form>
+
+<label for="nombre">Nombres :</label>
+<input type = "text" name = "usuario" id="nombre">
+<br><br>
+
+<label for="apellido">Apellidos :</label>
+<input type = "text" name = "secondname" id="apellido">
+<br>
+<p>Sexo:</p>
+<input type = "radio" name= "genero1" id="hombre">
+<label for="hombre">Masculino</label>
+<input type = "radio" name= "genero2" id="mujer">
+<label for="mujer">Femenino</label>
+<br>
+<p>Fecha de nacimiento:</p>
+<input type="date" id="start" name="trip-start"
+       value="1990-01-01"
+       min="1990-01-01" max="2003-12-31">
+<br><br>
+<label for="edad">Edad:</label>
+<input type="number" id="edad" name="edadact"
+       min="1" max="40">
+<br><br>
+<label for="email">Correo :</label>
+<input type = "text" name = "correo" id="email">
+<br><br>
+<label for="password">Contraseña :</label>
+<input type = "password" name = "contraseña" id="password">
+<br><br>
+<p>Lenguajes de programación:</p>
+<label><input type="checkbox" id="cbox1" value="cpp"> C++</label><br>
+<input type="checkbox" id="cbox2" value="java"> <label for="cbox2">Java</label><br>
+<input type="checkbox" id="cbox3" value="python"> <label for="cbox2">Python</label><br>
+<input type="checkbox" id="cbox4" value="csharp"> <label for="cbox2">C#</label>
+<br><br>
+
+<input type="submit" value="Enviar datos">
+<input type="reset" value="Borrar datos">
+
+<table  border="">
+  <caption><br></caption>
+  <thead>
+    <tr>
+      <th>Curso</th>
+      <th>Profesor</th>
+      <th>Días</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Matemática Discreta</td>
+      <td>Mas Azahaunche</td>
+      <td>Sábado</td>
+    </tr>
+    <tr>
+      <td>Circuitos Eléctricos</td>
+      <td>H. Vilcapuma</td>
+      <td>Lunes y Jueves</td>
+    </tr>
+    <tr>
+      <td>Etica Profesional</td>
+      <td>Jorge Camayo</td>
+      <td>Martes</td>
+</tr>
+<td>Idioma IV</td>
+<td>J. Garay</td>
+      <td>Miércoles</td>
+    </tr>
+    <tr>
+      <td>Program. Web</td>
+      <td>Y. Ortega</td>
+      <td>Jueves</td>
+    </tr>
+    <tr>
+      <td>Teoría de Sistemas</td>
+      <td>L. Valdivia</td>
+      <td>Viernes</td>
+    </tr>
+  </tbody>
+  <tfoot>
+  </tfoot>
+</table><br><br>
+
+<table  border="">
+  <caption><br></caption>
+  <thead>
+    <tr>
+      <th>Ciclo</th>
+      <th>Curso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6">1°</td>
+      <td>TCI</td>
+    </tr>
+    <tr>
+      <td>Cálculo I</td>
+    </tr>
+    <tr>
+      <td>Matemática Básica</td>
+</tr>
+<tr>
+      <td>Filosofía y Lógica</td>
+</tr>
+<tr>
+      <td>Redacción</td>
+</tr>
+<tr>
+      <td>Idioma I</td>
+</tr>
+  </tbody>
+
+<tbody>
+    <tr>
+      <td rowspan="6">2°</td>
+      <td>Programación Estructurada</td>
+    </tr>
+    <tr>
+      <td>Cálculo II</td>
+    </tr>
+    <tr>
+      <td>Física I</td>
+</tr>
+<tr>
+      <td>Dibujo</td>
+</tr>
+<tr>
+      <td>MIC</td>
+</tr>
+<tr>
+      <td>Idioma II</td>
+</tr>
+  </tbody>
+<tbody>
+    <tr>
+      <td rowspan="6">3°</td>
+      <td>POO</td>
+    </tr>
+    <tr>
+      <td>Cálculo III</td>
+    </tr>
+    <tr>
+      <td>Física II</td>
+</tr>
+<tr>
+      <td>Base de Datos</td>
+</tr>
+<tr>
+      <td>Contabilidad</td>
+</tr>
+<tr>
+      <td>Idioma III</td>
+</tr>
+  </tbody>
+
+  <tfoot>
+  </tfoot>
+</table>
+
+</form>
+
+</body>
+</html>
